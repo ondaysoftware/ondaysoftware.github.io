@@ -11,13 +11,13 @@
 }
 
 .navbar-custom .navbar-nav .nav-link {
-  color: #000;
+  color: #102c5f;
 }
 
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-  transition: color 0.5s ease;
-  color: #fff; 
+  transition: color 0.3s ease;
+  color: #F02c5f; 
 }
 
 .vcenter {
