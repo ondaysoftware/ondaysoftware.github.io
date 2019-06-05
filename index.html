@@ -5,10 +5,12 @@
 <link rel="shortcut icon" type="image/x-icon" href="favico.ico" />
 <link rel="mask-icon" type="" href="favico.ico" color="#111" />
 <title>Onday Software</title>
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css?family=Lato|PT+Sans:700|Amatic+SC|East+Sea+Dokdo|Indie+Flower|Neucha" rel="stylesheet">
 <link rel='stylesheet' href='stylesheet.css'>
 <script src="https://kit.fontawesome.com/624cc7d364.js"></script>
+<script src="script.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="image" property="og:image" content="https://www.onday.dev/onday_og_image.png">
 <meta property="og:title" content="Onday Software offical website">
@@ -44,11 +46,11 @@
 
 
 <div class="onday-container-blue" id="section-home">
-	<div class="text-center" style="font-size: 120px; padding-top: 100px; margin-bottom: -35px;">
+	<div class="text-center onday-title" style="padding-top: 100px;">
 		Onday<span class="alternative-title-color">.dev</span>
 	</div>
-	<h5 class="text-handwritten text-muted text-center" style="margin-left: 300px"> A Swedish Software Startup</h5>
-	<div class="text-center" style="margin-top: -10px;">
+	<h5 class="text-handwritten text-muted text-center text-right-shifted"> A Swedish Software Startup</h5>
+	<div class="text-center">
 		<h4>Productivity<span class="alternative-title-color" style="font-size: 50px">.</span> Health<span class="alternative-title-color" style="font-size: 50px">.</span> Well-being<span class="alternative-title-color" style="font-size: 50px">.</span></h4>
 
 		<div class="onday-icons" id="contact-me" style="margin-top: 150px; margin-bottom: 0px">
@@ -65,56 +67,28 @@
 <div class="onday-container-white" id="section-about">
 	<h1 class="text-center"> About</h1>
 
-	<h4 style="margin-top: 50px;" class="text-justify">Onday Software AB is a Swedish startup software company. We offer  <span class="font-weight-bold">mobile applications</span> that are simple and user-friendly and are aimed at people who are interested in <span class="font-weight-bold">productivity</span> and boosting their <span class="font-weight-bold">health and well-being.</span>
+	<h4 style="margin-top: 50px;">Onday Software AB is a Swedish startup software company. We offer  <span class="font-weight-bold">mobile applications</span> that are simple and user-friendly and are aimed at people who are interested in <span class="font-weight-bold">productivity</span> and boosting their <span class="font-weight-bold">health and well-being.</span>
 	</h4>
 	
 	<center>
-		<dev class="row" style="margin-top: 100px;">
-			<dev class="col-sm-4">
-					<i class="fas core-business fa-heartbeat"></i>
-					<h5 class="font-weight-bold" style="margin-top: 10px;">Health.</h5>
-			</dev>
-			<dev class="col-sm-4">
-					<i class="fas core-business fa-tasks"></i>
-					<h5 class="font-weight-bold" style="font-weight: bold; margin-top: 10px;">Productivity.</h5>
-			</dev>
-			<dev class="col-sm-4">
-					<i class="fas core-business fa-spa"></i>
-					<h5 class="font-weight-bold" style="font-weight: bold; margin-top: 10px;">Well-being.</h5>
-			</dev>
+	<dev class="row" style="margin-top: 70px;">
+		<dev class="col">
+				<i class="fas core-business fa-heartbeat"></i>
+				<h4 class="font-weight-bold" style="margin-top: 10px; margin-bottom: 10px">Health.</h4>
 		</dev>
+		<dev class="col">
+				<i class="fas core-business fa-tasks"></i>
+				<h4 class="font-weight-bold" style="font-weight: bold; margin-top: 10px; margin-bottom: 10px">Productivity.</h4>
+		</dev>
+		<dev class="col">
+				<i class="fas core-business fa-spa"></i>
+				<h4 class="font-weight-bold" style="font-weight: bold; margin-top: 10px; margin-bottom: 50px">Well-being.</h4>
+		</dev>
+	</dev>
 	</center>
 </div>
 
-<div class="onday-container-blue" id="section-contact">
-	<h1 class="text-center"> Contact</h1>
-	<form action="mailto:info@onday.dev method="post" enctype="text/plain">
-		<div class="row">
-			<div class="col-md-6 form-group">
-				<label for="form_name">Name *</label>
-				<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name *" required>
-			</div>
-			<div class="col-md-6 form-group">
-				<label for="form_email">Email *</label>
-				<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 form-group">
-				<label for="form_message">Message *</label>
-				<textarea id="form_message" name="message" class="form-control" placeholder="Message here *" rows="4" required></textarea>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12">
-				<input type="submit" class="btn btn-sucess btn-send" value="Send message">
-			</div>
-		</div>
-		<div class="row">
-			<div class="cold-md-12">
-				<em><strong>*</strong> These fields are required.</em>
-			</div>
-		</div>
-	</form>
+<div class="onday-container-blue onday-footer" id="section-contact">
+  <a href="javascript:decryptEmail('aW5mb0BvbmRheS5kZXY=');" target="_top"><h5 class="text-white text-right"><i class="fas fa-envelope"></i> Contact us</h5></a>
 </div>
 </html>
