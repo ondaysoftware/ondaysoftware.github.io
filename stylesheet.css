@@ -8,6 +8,8 @@
 
 .navbar {
   min-height: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .navbar-custom .navbar-nav .nav-link {
@@ -141,10 +143,6 @@ body {
 }
 
 @media (max-width: 980px) {
-  .container {
-    margin-left: 10px;
-  }
-
   .onday-container-blue {
     padding: 50px 18px 20px 18px;
   }
@@ -159,6 +157,11 @@ body {
   
   .onday-title {
     font-size: 70px;
+  }
+  
+  .navbar {
+    padding-left: 20px;
+    padding-right: 20px;
   }
   
   .text-right-shifted {
